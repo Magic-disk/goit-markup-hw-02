@@ -24,9 +24,14 @@ body {
   color: var(--main-color);
   background-color: var(--white-color);
 }
-/* свойства ссылок */
+/* фон хедера */
+.header {
+  background-color: var(--white-color);
+}
+
+/* свойства ссылок контактов */
 .contacts .link {
-  color: #757575;
+  color: var(--main-color);
 }
 /* logo */
 .logo {
@@ -43,10 +48,10 @@ body {
   color: var(--color-logo-links);
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--title-color);
 }
 
-/* свойства ссылок */
+/* общие свойства ссылок */
 .link:hover,
 .link:focus {
   color: var(--color-logo-links);
@@ -64,18 +69,45 @@ body {
 }
 /* кнопка заказа услуги */
 .hero-btn {
-  font-style: Bold;
+  font-style: bold;
   font-size: 16px;
   line-height: 1.875;
   color: var(--white-color);
   background: var(--color-logo-links);
 }
-.hero-btn:hover,
+/* кнопки портфолио */
+.buttons .active {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--white-color);
+  background-color: var(--color-logo-links);
+}
+.buttons .btn {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 1.625;
+  background-color: var(--team-background-color);
+  color: var(--hero-footer-background);
+}
 .hero-btn:focus {
   color: var(--white-color);
 }
+/* содержимое портфолио */
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-color);
+}
+.portfolio-content {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--main-color);
+}
 /* критерии работы */
-.job {
+.job,
+main {
   background-color: var(--background-color);
 }
 .hang-title {
